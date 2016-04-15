@@ -1,0 +1,83 @@
+# sqlite
+*.sqlite*
+
+*.log
+
+*.py[codt]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+obj/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.vs
+.mr.developer.cfg
+.project
+.pydevproject
+*.pyproj
+*.sln
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+
+.webassets-cache
+
+# Virtualenvs
+.env
+env
+env*
+venv
+
+# intellij
+*.ipr
+*.iml
+*.iws
+
+#trainemize_webapp/settings/local.py
+#trainemize_webapp/settings/production.py
+
+# collect static output directory
+trainemize_webapp/assets/
+trainemize_webapp/static/
+
+.DS_Store
+
+# node
+node_modules/
+
+# bower packages
+trainemize_webapp/assets-src/vendor/
+.sass-cache/
